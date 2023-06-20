@@ -1,5 +1,7 @@
 # Gloo Mesh VM
 
+This assume's Gloo Mesh is installed and workload clusters are registered
+
 To check this please see
 ```bash
 meshctl --kubecontext ${MGMT} check
