@@ -638,7 +638,7 @@ sudo yum install -y istio-sidecar.rpm
 
 Install cluster.env within the directory /var/lib/istio/envoy/:
 ```
-sudo cp cluster.env /var/lib/istio/envoy/cluster
+sudo cp cluster.env /var/lib/istio/envoy/cluster.env
 ```
 
 Install the Mesh Config to /etc/istio/config/mesh:
